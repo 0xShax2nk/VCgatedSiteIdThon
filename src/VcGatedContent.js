@@ -1,24 +1,17 @@
 import { Image } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+
 
 function VcGatedContent() {
   return (
     <div style={{ color: "white" }}>
-      <h1>👀 Here's the super secret VC gated content!</h1>
+      <h1>👀 Hola! You are viewing Exclusive Content!</h1>
       <Image
         my={4}
-        src="https://i.imgflip.com/7obsbb.jpg"
+        src="https://media1.giphy.com/media/Sq3tXvzzp51Ic/giphy.gif?cid=ecf05e47sg3xbh47wrn215ce3doicfk0naqeqq8lf30jdu7s&ep=v1_gifs_search&rid=giphy.gif&ct=g"
         alt="privacy meme"
         borderRadius="lg"
       />
-      <a
-        href="https://github.com/oceans404/vc-verifier"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Fork this code to build your own VC gated app, dapp, or website{" "}
-        <ExternalLinkIcon />
-      </a>
+    
     </div>
   );
 }
